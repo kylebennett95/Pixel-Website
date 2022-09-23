@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #ad900d;
+}
+
+.navBar {
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px #3E92CC solid;
+}

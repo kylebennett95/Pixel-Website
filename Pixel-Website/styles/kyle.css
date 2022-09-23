@@ -1,0 +1,73 @@
+body {
+    background-color: #2C0703;
+    font-family: 'Oswald', sans-serif;
+}
+
+.navBar {
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px #3E92CC solid;
+}
+
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #3E92CC;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+.header {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+.subHeader {
+color: #3E92CC;
+font-size: 30px;
+text-align: center;
+}
+
+.navNames {
+    font-size: 20px;
+    padding-top: 10px;
+}
+.houseImage {
+    width: 40px;
+}
+
+.gameText{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 30px;
+}
+.profileFlex {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.pictures {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.paragraph {
+    width: 40%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}

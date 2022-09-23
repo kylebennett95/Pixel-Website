@@ -1,0 +1,64 @@
+.mainText{
+    color: aliceblue;
+    font-size: 4px;
+}
+
+.gameCluster {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.titleText{
+    color: aliceblue;
+    font-size: 4px;
+}
+
+.tayHTMLBody {
+    background-color: #ff0ac2;
+}
+
+.tayFooter {
+    background-image: url("D:/NSS/Development/NSS/Workspace/pixel_Pushers_site/Pixel-Website/taylorStyle/Taylor Backgrounds/steamFooter.png");
+    width: 10%;
+    height: 10%;
+    background-repeat: repeat;
+}
+
+.tayHeader {
+    background-image: url("D:/NSS/Development/NSS/Workspace/pixel_Pushers_site/Pixel-Website/taylorStyle/Taylor Backgrounds/steamHeader.png");
+    max-width: 10%;
+    max-height: 10%;
+    width: 200%;
+    height: 200%;
+    background-repeat: repeat;
+    display:flow-root
+}
+
+#TitanfallTwoImage {
+    height: 400px;
+    width: 400px;
+    padding: -900px;
+}
+
+#darkSoulsThreeImage {
+    height: 400px;
+    width: 400px;
+    padding: 10px;
+}
+
+#haloInfiniteImage {
+    height: 400px;
+    width: 400px;
+    padding: 1500px;
+}
+
+.easyCluster {
+    width:100%;
+    padding: 100px;
+}
+
+#goku {
+    height: 700%;
+    width: 20%;
+}

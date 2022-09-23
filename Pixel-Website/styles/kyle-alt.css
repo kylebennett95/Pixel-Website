@@ -1,0 +1,109 @@
+body {
+    background-image: url('https://media0.giphy.com/media/13DZCJrmTryVKU/giphy.gif?cid=ecf05e47r42s1xuqpykjn1hindjrtuvwa0b8u4oes6jh5gpu&rid=giphy.gif&ct=g');
+    background-size: cover;
+    font-family: 'Oswald', sans-serif;
+}
+
+.gameText{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 30px;
+    justify-content: space-between;
+}
+a:link {
+    color: rgb(80, 191, 255);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:visited {
+    color: rgb(0, 217, 255);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+.header {
+    color: rgb(0, 217, 255);
+    font-size: 50px;
+    text-align: center;
+}
+.navNames {
+    font-size: 20px;
+    padding-top: 10px;
+}
+.houseImage {
+    width: 40px;
+}
+
+.pic {
+    display: inline;
+    padding-right: 2px;
+    width: 40%;
+    flex-wrap: wrap;
+}
+.paragraph {
+    width: 40%;
+    display: inline;
+    padding-right: 2px;
+    color: rgb(0, 217, 255);
+}
+
+.para {
+    width: 40%;
+    display: inline;
+    padding-right: 2px;
+    color: yellow;
+}
+.title {
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(0, 217, 255)
+}
+.bar1 {
+    background-color: pink;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px #3E92CC solid;
+}
+.bar2 {
+    background-color: yellow;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px #3E92CC solid;
+}
+.bar3 {
+    background-color: green;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px #3E92CC solid;
+}
+.bar4 {
+    background-color: red;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px #3E92CC solid;
+}

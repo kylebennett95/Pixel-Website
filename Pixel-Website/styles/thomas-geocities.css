@@ -1,0 +1,103 @@
+
+body {
+   background-color: rgb(124, 220, 244);
+   font-family: 'Oswald', sans-serif;
+   color: rgb(123, 241, 233);
+}
+
+.navBar {
+   background-color: rgb(246, 255, 0);
+   padding: 10px;
+   display: flex;
+   justify-content: flex-start;
+   width: 48%;
+   border-radius: 4px;
+   margin-left: auto;
+   /* margin-right: auto; */
+   border: 80px #3E92CC solid;
+}
+
+a:link {
+   color: white;
+   background-color: transparent;
+   text-decoration: none;
+ }
+
+ a:hover {
+   color: #3E92CC;
+   background-color: transparent;
+   text-decoration: underline;
+ }
+.header {
+   color: rgb(121, 214, 235);
+   font-size: 600px;
+   text-align: center;
+}
+
+.subHeader {
+color: #3E92CC;
+font-size: 5px;
+text-align: center;
+}
+
+.navNames {
+   font-size: 3px;
+   padding-top: 10px;
+}
+.houseImage {
+   width: 40px;
+}
+
+.profilePictures{
+   color: white;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   
+}
+.profileFlex {
+   width: 30%;
+   display: flex;
+   justify-content: center;
+   margin: 20px;
+}
+
+.pictures {
+   width: 50%;
+}
+
+/* making sure I can make my site as cool as possible with the below commenting out, close together text is cool */
+
+article{
+   display: flex;
+   /* flex-wrap: wrap;
+   margin-top: 20px; */
+   margin-bottom: 40px;
+   font-size: 6px;
+}
+
+.gameImageleft{
+   width: 80%;
+   height: 45px;
+   float: left;
+   margin: 15px;
+}
+
+.gameImageright{
+   width: 20vw;
+   height: 400vh;
+   float: right;
+   margin-top: 1px;
+}
+
+a:visited {
+   color: white;
+   background-color: transparent;
+   text-decoration: none;
+}
+
+a:active {
+   color: #3E92CC;
+   background-color: transparent;
+   text-decoration: none;
+}

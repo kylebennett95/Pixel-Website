@@ -1,0 +1,99 @@
+
+body {
+   background-color: #2C0703;
+   font-family: 'Oswald', sans-serif;
+   color: white;
+}
+
+.navBar {
+   background-color: black;
+   padding: 10px;
+   display: flex;
+   justify-content: space-evenly;
+   width: 80%;
+   border-radius: 4px;
+   margin-left: auto;
+   margin-right: auto;
+   border: 3px #3E92CC solid;
+}
+
+a:link {
+   color: white;
+   background-color: transparent;
+   text-decoration: none;
+ }
+
+ a:hover {
+   color: #3E92CC;
+   background-color: transparent;
+   text-decoration: underline;
+ }
+.header {
+   color: white;
+   font-size: 50px;
+   text-align: center;
+}
+
+.subHeader {
+color: #3E92CC;
+font-size: 30px;
+text-align: center;
+}
+
+.navNames {
+   font-size: 20px;
+   padding-top: 10px;
+}
+.houseImage {
+   width: 40px;
+}
+
+.profilePictures{
+   color: white;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   
+}
+.profileFlex {
+   width: 30%;
+   display: flex;
+   justify-content: center;
+   margin: 20px;
+}
+.pictures {
+   width: 50%;
+}
+
+article{
+   display: flex;
+   flex-wrap: wrap;
+   margin-top: 20px;
+   margin-bottom: 40px;
+}
+
+.gameImageleft{
+   width: 20%;
+   height: 20%;
+   float: left;
+   margin: 15px;
+}
+
+.gameImageright{
+   width: 25%;
+   height: 25%;
+   float: right;
+   margin-top: 70px;
+}
+
+a:visited {
+   color: white;
+   background-color: transparent;
+   text-decoration: none;
+}
+
+a:active {
+   color: #3E92CC;
+   background-color: transparent;
+   text-decoration: none;
+}

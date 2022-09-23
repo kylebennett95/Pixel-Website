@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+body {
+    background-color: #2C0703;
+    font-family: 'Oswald', sans-serif;
+}
+
+.navBar {
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px #3E92CC solid;
+}
+
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #3E92CC;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:active {
+    color: #3E92CC;
+    background-color: transparent;
+    text-decoration: none;
+ }
+
+.header {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+.subHeader {
+color: #3E92CC;
+font-size: 30px;
+text-align: center;
+}
+
+.navNames {
+    font-size: 20px;
+    padding-top: 10px;
+}
+.houseImage {
+    width: 40px;
+}
+
+.destiny_image {
+    max-width: 550px;
+}
+
+.tarkov_image {
+    max-width: 550px;
+}
+
+.pubg_image {
+    max-width: 550px;
+}
+
+.parent_div {
+    display: flex;
+    align-items: center;
+    flex-flow: column wrap;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.game_header {
+    text-align: center;
+}
+
+.game_text {
+    flex-wrap: wrap;
+    width: 40%;
+    text-align: center;
+}

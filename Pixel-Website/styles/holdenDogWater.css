@@ -1,0 +1,44 @@
+
+body{
+    color: whitesmoke;
+    background-color: yellow;
+    font-family: 'Indie Flower', cursive;
+}
+
+.col {
+    width: 40%;
+}
+
+p {
+    font-size: 60px;
+}
+
+.icons{
+    width: 6em;
+    padding-right: 10px;
+    display: inline;
+}
+.wowImage {
+   
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.valorantImage {
+    transform: rotateY(180deg);
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.rainbowImage {
+
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.header2 {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+}
